@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Normal weight */
+}
+
+
+p:nth-child(1){
+    font-size: 2em; 
+    font-weight: 100;
+}
+p:nth-child(3){ 
+    font-weight: 100;
+   /* color:red;*/
+    text-align: center;
+    width: 70%;
+}
+
+p{
+    font-weight: 200;
+}
+
+h3{ 
+    font-size: 1.5em;
+font-weight: 900;
+color:  hsl(234, 12%, 34%)
+}
+h4{ 
+font-weight: bold;
+}
+
+.full-container{ 
+    place-items: center;
+}
+
+.words{
+    margin-top: 2%;
+    display: grid;
+    place-items: center;
+}
+
+.main-content{ 
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;                    
+     
+
+}
+
+.one{   
+    display: flex;
+    gap: 2em;
+    flex-direction: column; 
+
+}
+
+.two{
+    display: flex;
+}
+
+img{
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-self: flex-end;
+}
+ 
+ 
+
+.box{ 
+    width: 20em;
+    height: 15em;
+    border-top:red;
+    border: none;
+    border-radius: 0.5em ;
+    padding: 2em; 
+   box-shadow: -2px 2px 10px hsl(229, 6%, 66%);
+   
+}
+
+.Team-builder{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    /*align-self: flex-start;*/ 
+}
+
+.Karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    /*align-self: flex-end;*/
+}
+
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    align-self: flex-start;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: fixed;
+}
